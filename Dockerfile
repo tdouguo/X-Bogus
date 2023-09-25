@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 8787
 
 # 运行Flask应用
-CMD ["python", "./app.py"]
+CMD ["python", "./api/app.py"]

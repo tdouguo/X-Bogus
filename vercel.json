@@ -1,0 +1,15 @@
+{
+  "functions": {
+    "api/*": {
+      "runtime": "python3.9",
+      "framework": "#no-framework"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "api/server.py"
+    }
+  ],
+  "regions": ["any"]
+}
